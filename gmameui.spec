@@ -13,7 +13,7 @@ BuildRequires:	autoconf
 BuildRequires:	automakea
 BuildRequires:	expat-devel
 BuildRequires:	gnome-doc-utils
-BuildRequires:	gtk+2-devel >= 2.13.4
+BuildRequires:	gtk+2-devel >= 2:2.13.4
 BuildRequires:	libarchive-devel
 BuildRequires:	libglade2-devel
 BuildRequires:	rpmbuild(macros) >= 1.268
