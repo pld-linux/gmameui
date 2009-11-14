@@ -10,12 +10,16 @@ Source0:	http://dl.sourceforge.net/gmameui/%{name}-%{version}.tar.gz
 Patch0:		%{name}-desktop.patch
 URL:		http://gmameui.sourceforge.net/
 BuildRequires:	autoconf
-BuildRequires:	automakea
+BuildRequires:	automake
 BuildRequires:	expat-devel
+BuildRequires:	gettext-devel
 BuildRequires:	gnome-doc-utils
 BuildRequires:	gtk+2-devel >= 2:2.13.4
+BuildRequires:	intltool
 BuildRequires:	libarchive-devel
 BuildRequires:	libglade2-devel
+BuildRequires:	libgnome-devel
+BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.268
 BuildRequires:	vte-devel
 Suggests:	sdlmame
